@@ -1,5 +1,5 @@
 """
-This file has been written with by Serkan Erip (serkanerip) for translate copied texts from clipboard via Python 3.5.
+This file has been written with by Serkan Erip (serkanerip) for translate copied texts from clipboard and set clipboard that translated text via Python 3.5.
 Feel free to cloning, sharing, editing and committing some new examples.
 I have tried to explain each part basicly as I can.
 For communicating with me:
@@ -7,12 +7,12 @@ mail: serkanerip@gmail.com
 github: github.com/serkanerip
 """
 
-import get_last_copy
+import paste_and_copy
 import translate
 import os
 
 # variables
-last_copied_text = get_last_copy.last_copy()
+last_copied_text = paste_and_copy.last_copy()
 linux_command = 'nofity-send'
 notify_title = 'Paste-translate app'
 source_language = 'en' # translate from english
@@ -34,6 +34,7 @@ if __name__ == '__main__':
     message = '\nTranslated from {} to {}\n\nTranslated text = {}\n\nTranslate = {}\n'
     message = message.format( source_language, target_language, last_copied_text, text_translate )
     send_notification(message)
+    paste_and_copy.copy_the_translate(text_translate) # after showing translating set clipboard copy is translate text
 
 
 
