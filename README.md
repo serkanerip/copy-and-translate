@@ -22,7 +22,7 @@ sudo apt-get install git
 sudo apt-get install python3
 ```
 ### Git Config
-
+If you haven't already configured your git:
 ```
 git config --global user.name "username"
 git config --global user.email example@email.com
