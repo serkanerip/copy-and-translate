@@ -27,19 +27,23 @@ git config --global user.name "username"
 git config --global user.email example@email.com
 ```
 
-### Install and Configure App
+### Installing Application
+
+```
+git clone git@github.com:serkanerip/copy-and-translate.git
+sudo mv copy-and-translate /usr/share/
 
 ```
 
-1-)You need the install requirements.
-  Via Clone:
-  Copy and paste that terminal : git clone git@github.com:serkanerip/copy-and-translate.git
+### Adding Keyboard Shortcut
 
-After that extract files.
-
-And then add a keyboard shortcut to execute program when you click.
-
-### Adding keyboard shortcut
+```
+Go system settings and open keyboard shortcuts
+Add a custom shortcut
+Set the command of shortcut :
+ * python3 '/usr/share/copy-and-translate/copy-translate.py'
+And set your keyboard shortcut
+```
 
 ![alt-tag](http://oi68.tinypic.com/2hh2n37.png)
 
