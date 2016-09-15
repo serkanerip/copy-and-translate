@@ -9,7 +9,6 @@ github: github.com/serkanerip
 
 import subprocess
 import platform
-import pyperclip
 
 # variables
 clipboards = ['xsel', 'xclip']
