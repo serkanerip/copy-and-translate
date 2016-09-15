@@ -6,6 +6,7 @@ Just only linux, windows and mac os is coming soon.
 This app gets current copied text from the system clipboard and then translates the text via yandex-api and shows translation like a notification.Immediately after translation, clipboard (original text) value is changed with translated text so you can do control + V to paste it. By using this application you do not need to open new web pages and copy paste around.
 
 ## Requirements
+  * Linux
   * Git
   * Python 3
   * Xsel or Xclip clipboard package
