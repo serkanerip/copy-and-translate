@@ -10,7 +10,7 @@ github: github.com/serkanerip
 import requests
 
 class Translate():
-    KEY_API = '' # yandex key api for using translate api
+    KEY_API = 'trnsl.1.1.20160914T190012Z.bba0cb3c0d74686a.368f6665226161cc052c656b2f00af0ae1b872d1' # yandex key api for using translate api
     API_URL = "https://translate.yandex.net/api/v1.5/tr.json/translate?lang={}-{}&key={}"
     def __init__(self, word, source, target):
         self.source = source
