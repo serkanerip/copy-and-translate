@@ -27,7 +27,7 @@ def check_clipboards(): # check system is have it clipboards packages
 def check_is_exists_notifysender_on_mac():
     return subprocess.call([check_cmd], osx_notify_sender_package,
                            stdout=subprocess.PIPE,
-                           bufsize=0,
+                           shell=True,
                            stderr=subprocess.PIPE) == 0
 
 def execute_command(command):
