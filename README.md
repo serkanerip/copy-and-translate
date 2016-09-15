@@ -4,7 +4,14 @@ This application is doing fast translation with keyboard shortcuts.
 Just only linux, windows and mac os is coming soon.
 ## How does it work ?
 This app gets current copied text from the system clipboard and then translates the text via yandex-api and shows translation like a notification.Immediately after translation, clipboard (original text) value is changed with translated text so you can do control + V to paste it. By using this application you do not need to open new web pages and copy paste around.
-# Adding keyboard shortcut
+## Manuel Setup
+First all you need the app files you can include your computer via git clone or download.
+
+After that extract files.
+
+And then add a keyboard shortcut to execute program when you click.
+
+## Adding keyboard shortcut
 
 ![alt-tag](http://oi68.tinypic.com/2hh2n37.png)
 
