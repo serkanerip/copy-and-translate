@@ -46,6 +46,8 @@ Set the command of shortcut :
 And set your keyboard shortcut
 ```
 
+### After All Logout And Enjoy :)
+
 ![alt-tag](http://oi68.tinypic.com/2hh2n37.png)
 
 ### Some Examples
