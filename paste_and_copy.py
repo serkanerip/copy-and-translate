@@ -21,12 +21,13 @@ def check_clipboards(): # check system is have it clipboards packages
     for cp in clipboards:
         clipboard = cp if subprocess.call([check_cmd, cp],
                                           stdout=subprocess.PIPE,
-                                             stderr=subprocess.PIPE) == 0 else ''
+                                          stderr=subprocess.PIPE) == 0 else ''
     return clipboard
 
 def check_is_exists_notifysender_on_mac():
     return subprocess.call([check_cmd], osx_notify_sender_package,
                            stdout=subprocess.PIPE,
+                           bufsize=0,
                            stderr=subprocess.PIPE) == 0
 
 def execute_command(command):
