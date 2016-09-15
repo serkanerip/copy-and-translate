@@ -21,7 +21,7 @@ sudo apt-get install xsel or sudo apt-get install xclip
 sudo apt-get install git
 sudo apt-get install python3
 ```
-### Github Config
+### Git Config
 
 ```
 git config --global user.name "username"
